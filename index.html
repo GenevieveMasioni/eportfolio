@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Geneviève Masioni</title>
+  <!-- Bootstrap latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="ressources/css/style.css">
+  <link rel="stylesheet" type="text/css" href="ressources/css/responsive.css">
+  <link rel="stylesheet" type="text/css" href="ressources/fonts/font-awesome/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900|Open+Sans:400,700" rel="stylesheet">
+  <!-- scrollTo effect -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="ressources/js/scrollTo.js" type="text/javascript"></script>
+</head>
+<body>
+  <!-- En-tête -->
+  <header>
+    <!-- Navigation -->
+    <nav class="menu">
+      <!-- Menu principal -->
+      <ul class="main-menu">
+        <li><a href="index.html" class="current" title="Accueil">Accueil</a></li>
+        <li><a href="competences.html" title="Mes compétences">Competences</a></li>
+        <li><a href="formations.html" title="Mes formations">Formations</a></li>
+        <li><a href="experiences.html" title="Mes expériences">Experiences</a></li>
+        <li class="dropdown"><a href="loisirs.html" class="btn btn-secondary dropdown-toggle" role="button" title="Mes loisirs">Loisirs</a>
+          <!-- Sous-menu -->
+          <ul class="dropdown-menu">
+            <li><a href="loisirs.html#arts" class="dropdown-item">Arts appliqués</a></li>
+            <li><a href="loisirs.html#video" class="dropdown-item">Création vidéo</a></li>
+            <li><a href="loisirs.html#humanitaire" class="dropdown-item">Humanitaire</a></li>
+          </ul>
+          <!-- Fin Sous-menu -->
+        </li>
+      </ul> <!-- Fin Menu principal -->
+      <!-- Menu secondaire -->
+      <ul class="secondary-menu">
+        <li><a href="index.html" title="Accueil"><i class="fa fa-home current" aria-hidden="true"></i></a></li>
+        <li><a href="competences.html" title="Mes compétences"><i class="fa fa-check-square-o" aria-hidden="true"></i></a></li>
+        <li><a href="formations.html" title="Mes formations"><i class="fa fa-mortar-board" aria-hidden="true"></i></a></li>
+        <li><a href="experiences.html" title="Mes expériences"><i class="fa fa-bookmark" aria-hidden="true"></i></a></li>
+        <li class="dropdown"><a href="loisirs.html" title="Mes loisirs"><i class="fa fa-camera" aria-hidden="true"></i></a></li>
+      </ul> <!-- Fin Menu secondaire  -->
+    </nav> <!-- Fin Navigation -->
+  </header>
+  <!-- Corps du site -->
+  <main>
+    <!-- Jumbotron / Vedette -->
+
+    <div class="homepage-hero-module">
+      <div class="video-container">
+        <div class="jumbotron">
+          <div class="hero-section">
+            <div class="site-title">
+              <h1>Geneviève Masioni</h1>
+              <h3>Concevoir des outils informatiques au service de la création</h3>
+            </div>
+            <!-- <a href="#principal"><i class="fa fa-angle-down fa-5x" aria-hidden="true"></i></a> -->
+          </div>
+          <a href="#principal" class="js-scrollTo"><i class="fa fa-angle-down fa-4x" aria-hidden="true"></i></a>
+        </div>
+        <div class="filter"></div>
+        <video autoplay loop class="fillWidth">
+          <source src="ressources/videos/Scroll-It/MP4/Scroll-It.mp4" type="video/mp4" />
+          Votre navigateur n'est pas compatible avec les vidéos.
+          <source src="ressources/videos/Scroll-It/WEBM/Scroll-It.webm" type="video/webm" />
+          Votre navigateur n'est pas compatible avec les vidéos.
+        </video>
+        <div class="poster hidden">
+          <img src="ressources/videos/Scroll-It/Snapshots/Scroll-It.jpg" alt="">
+        </div>
+      </div>
+    </div>
+
+    <!-- Principal -->
+    <div class="principal" id="principal">
+      <!-- Section A propos -->
+      <div class="a-propos competence">
+        <h3>À propos <span>de moi</span></h3>
+        <p>Développeuse web indépendante, je travaille en étroite collaboration
+          avec des graphistes spécialisés dans le numérique (web designers) et
+          des artistes pour concevoir des sites web et des applications mobiles
+          de qualité professionnelle.
+          Si j'ai pu acquérir, en autodidacte, les compétences informatiques
+          nécessaires à cette activité, je me forme à la conception de programmes
+          plus robustes.
+        </p>
+        <p>Bien que l'informatique soit mon coeur de métier, mon goût
+         pour les arts m'a amené à développer une polyvalence en graphisme et en
+         économie. A terme, j'ai pour ambition de fructifier cette polyvalence
+         en créant <strong>une start-up dont la mission serait de concevoir des outils
+         informatiques pour encourager la création</strong>.
+        </p>
+      </div> <!-- Fin Section A propos -->
+      <!-- Section Services -->
+      <div class="services competence">
+        <h3>Services <span>proposés</span></h3>
+        <div class="service-1">
+          <h4><a href="competences.html#informatique">Informatique</a></h4>
+        </div>
+        <div class="service-2">
+          <h4><a href="competences.html#design">Web Design</a></h4>
+        </div>
+        <div class="service-3">
+          <h4><a href="competences.html#vidéo-photo">Création vidéo</a></h4>
+        </div>
+      </div>
+      <div class="button">
+        <a href="experiences.html">En savoir plus</a>
+      </div> <!-- Fin Section Services -->
+      <!-- Section Témoignages -->
+      <div class="temoignages competence">
+        <h3>Témoignages <span>de clients</span></h3>
+        <div class="temoignage">
+          <h5>Victoire Mandonnaud</h5>
+          <p class="blockquote"><i class="fa fa-quote-left fa-3x fa-pull-left"></i>
+            En sortant des Ateliers de Sèvres, j'avais besoin d'un site pour
+            exposer mes travaux. Geneviève a réalisé mon premier portfolio sur
+            le CMS Koken. Elle a su mettre en avant mes images et trouver une
+            plateforme qui corresponde à mes attentes. Nous travaillons actuellement
+            sur la création d'un eportfolio plus robuste avec WordPress !</p>
+        </div>
+        </div> <!-- Fin Section Témoignages -->
+      </div>
+      <!-- Fin Principal -->
+    </main>
+
+    <!-- Pied de page -->
+    <footer>
+      <h3>Me contacter</h3>
+      <!-- Formulaire de contact -->
+      <form action="" method="post">
+        <div class="champ">
+          <i class="fa fa-user-o" aria-hidden="true"></i>
+          <input type="text" name="nom" value="" placeholder="Votre nom">
+        </div>
+        <div class="champ">
+          <i class="fa fa-at"></i>
+          <input type="text" name="email" value="" placeholder="Votre adresse mail">
+        </div>
+        <div class="champ objet">
+          <i class="fa fa-tags" aria-hidden="true"></i>
+          <label>Objet :</label>
+          <select>
+            <option>Demande de devis</option>
+            <option>Autre</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <input type="file" id="exampleInputFile">
+        </div>
+        <textarea name="message" rows="4" cols="80" placeholder="Votre message"></textarea>
+        <input type="submit" name="envoyer" value="Envoyer" class="submit">
+      </form> <!-- Fin Formulaire de contact -->
+      <p class="copyright">&copy; 2017 Geneviève Masioni</p>
+    </footer>
+  </body>
+  </html>

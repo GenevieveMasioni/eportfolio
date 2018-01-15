@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Geneviève Masioni</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="ressources/css/style.css">
+  <link rel="stylesheet" type="text/css" href="ressources/css/responsive.css">
+  <link rel="stylesheet" type="text/css" href="ressources/fonts/font-awesome/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900|Open+Sans:400,700" rel="stylesheet">
+</head>
+<body>
+  <!-- En-tête -->
+  <header>
+    <!-- Navigation -->
+    <nav class="menu">
+      <!-- Menu principal -->
+      <ul class="main-menu">
+        <li><a href="index.html" title="Accueil">Accueil</a></li>
+        <li><a href="competences.html" title="Mes compétences">Competences</a></li>
+        <li><a href="formations.html" class="current" title="Mes formations">Formations</a></li>
+        <li><a href="experiences.html" title="Mes expériences">Experiences</a></li>
+        <li class="dropdown"><a href="loisirs.html" class="btn btn-secondary dropdown-toggle" role="button" title="Mes loisirs">Loisirs</a>
+          <!-- Sous-menu -->
+          <ul class="dropdown-menu">
+            <li><a href="loisirs.html#arts" class="dropdown-item">Arts appliqués</a></li>
+            <li><a href="loisirs.html#video" class="dropdown-item">Création vidéo</a></li>
+            <li><a href="loisirs.html#humanitaire" class="dropdown-item">Humanitaire</a></li>
+          </ul>
+          <!-- Fin Sous-menu -->
+        </li>
+      </ul> <!-- Fin Menu principal -->
+      <!-- Menu secondaire -->
+      <ul class="secondary-menu">
+        <li><a href="index.html" title="Accueil"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+        <li><a href="competences.html" title="Mes compétences"><i class="fa fa-check-square-o" aria-hidden="true"></i></a></li>
+        <li><a href="formations.html" title="Mes formations"><i class="fa fa-mortar-board current" aria-hidden="true"></i></a></li>
+        <li><a href="experiences.html" title="Mes expériences"><i class="fa fa-bookmark" aria-hidden="true"></i></a></li>
+        <li class="dropdown"><a href="loisirs.html" title="Mes loisirs"><i class="fa fa-camera" aria-hidden="true"></i></a></li>
+      </ul> <!-- Fin Menu secondaire  -->
+    </nav> <!-- Fin Navigation -->
+  </header>
+  <!-- Corps du site -->
+  <main>
+    <!-- Section Principal -->
+    <div class="principal competences">
+      <!-- Section Formations -->
+      <div class="table-responsive">
+      <table class="table">
+        <tr>
+          <th>Mes formations</th>
+          <th><i class="fa fa-calendar" aria-hidden="true"></i> Période</th>
+          <th><i class="fa fa-mortar-board" aria-hidden="true"></i>Formation</th>
+          <th><i class="fa fa-map-pin" aria-hidden="true"></i>Lieu</th>
+          <th><i class="fa fa-file-pdf-o" aria-hidden="true"></i>Diplôme</th>
+        </tr>
+        <tr>
+          <td rowspan="3">Principales</td>
+          <td class="annee">En cours</td>
+          <td>DUT Informatique</td>
+          <td>IUT Paris Descartes</td>
+          <td>A venir</td>
+        </tr>
+        <tr>
+          <td class="annee">2016 - 2017</td>
+          <td>Mise à Niveau en Arts Appliqués</td>
+          <td>Lycée Auguste Renoir</td>
+          <td><a href="#">Télécharger</a></td>
+        </tr>
+        <tr>
+          <td class="annee">2015 - 2016</td>
+          <td>Baccalauréat Economique et Social</td>
+          <td>Lycée Lavoisier</td>
+          <td><a href="ressources/images/diplômes/Baccalaureat-Genevieve-Masioni.png"
+            target="_blank">Télécharger</a></td>
+        </tr>
+        <tr>
+          <td rowspan="2">Complémentaires</td>
+          <td class="annee">2016</td>
+          <td>Prévention Secours Civiques de niveau 1 (PSC1)</td>
+          <td>Protection Civile de Paris</td>
+          <td><a href="#">Télécharger</a></td>
+        </tr>
+        <tr>
+          <td class="annee">2016</td>
+          <td>Brevet d'aptitude aux fonctions d'animateur (BAFA)</td>
+          <td>UFCV</td>
+          <td><a href="#">Télécharger</a></td>
+        </tr>
+      </table> <!-- Fin Section Formations -->
+</div>
+    </div>
+    <!-- Fin Section Principal -->
+  </main>
+
+  <!-- Pied de page -->
+  <footer>
+    <h3>Me contacter</h3>
+    <!-- Formulaire de contact -->
+    <form action="" method="post">
+      <div class="champ">
+        <i class="fa fa-user-o" aria-hidden="true"></i>
+        <input type="text" name="nom" value="" placeholder="Votre nom">
+      </div>
+      <div class="champ">
+        <i class="fa fa-at"></i>
+        <input type="text" name="email" value="" placeholder="Votre adresse mail">
+      </div>
+      <div class="champ objet">
+        <i class="fa fa-tags" aria-hidden="true"></i>
+        <label>Objet :</label>
+        <select>
+          <option>Demande de devis</option>
+          <option>Autre</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <input type="file" id="exampleInputFile">
+      </div>
+      <textarea name="message" rows="4" cols="80" placeholder="Votre message"></textarea>
+      <input type="submit" name="envoyer" value="Envoyer" class="submit">
+    </form> <!-- Fin Formulaire de contact -->
+    <p class="copyright">&copy; 2017 Geneviève Masioni</p>
+  </footer>
+</body>
+</html>
